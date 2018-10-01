@@ -1,11 +1,11 @@
-#A todo app where I practice new tech:
+# A todo app where I practice new tech:
 
-###Previous Packages:
+### Previous Packages:
 
 React 16 (context)
 
 
-###Current Packages:
+### Current Packages:
 
 render-this
 mocho 

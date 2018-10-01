@@ -1,7 +1,4 @@
-import React, { Component } from 'react';
-import ToDos from "./Components/Todos"
-import Login from "./Components/Login"
-
+import { Component } from 'react';
 
 class App extends Component {
   constructor() {
@@ -12,7 +9,7 @@ class App extends Component {
     // GlobalState binds each method for you
   }
 
-  login(user) {
+  login() {
     this.setState({ isAuthenticated: true })
   }
 
@@ -21,12 +18,7 @@ class App extends Component {
   }
 
   render() {
-    return (
-      <div>hello
-        <Login/>
-        <ToDos/>
-      </div>
-    );
+    return this.props.render(this)
   }
 }
 
