@@ -5,8 +5,7 @@ class Login extends Component {
   render() {
     return (
       <div>
-        <button>Login</button>
-        <button>Logout</button>
+        {this.props.isAuthenticated ? <button>Logout</button> : <button>Login</button> }
       </div>
     )
   }
