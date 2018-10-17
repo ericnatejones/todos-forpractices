@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import ToDos from "./Components/Todos/Todos"
 import Login from "./Components/auth/Login"
 
+// Consider removing console.logs
 console.log("inside file")
 
 class App extends Component {
   constructor() {
     super()
+    // Consider removing console.logs
     console.log("inside constructor")
 
     this.state = {
@@ -24,6 +26,7 @@ class App extends Component {
   }
 
   render() {
+    // Consider removing console.logs
     console.log("inside render")
     return (
       <div>Test
