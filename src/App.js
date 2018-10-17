@@ -2,12 +2,9 @@ import React, { Component } from 'react';
 import ToDos from "./Components/Todos/Todos"
 import Login from "./Components/auth/Login"
 
-console.log("inside file")
-
 class App extends Component {
   constructor() {
     super()
-    console.log("inside constructor")
 
     this.state = {
       isAuthenticated: false
@@ -24,7 +21,6 @@ class App extends Component {
   }
 
   render() {
-    console.log("inside render")
     return (
       <div>Test
         <Login/>
